@@ -26,14 +26,18 @@ Useful recipe sources:
 ## Create a new Shortcuts or Automater task
 The script can be run via Shortcuts or Automater. Create a new task in your chosen method.
 
-Shortcuts
+### Shortcuts
 Add a Run Applescript step
    <img width="835" height="239" alt="Shortcuts Screenshot" src="https://github.com/user-attachments/assets/5cacc259-b2a0-463a-b3f9-d863452f89a5" />
 
-Replace the text (* Your script goes here *) with the contents of applescript.txt file
+Replace the text (* Your script goes here *) with the contents of the [applescript.txt file](applescript.txt)
 
+### Automater
+Add a Run Applescript step to a Workflow document
+   <img width="529" height="244" alt="Automater Screenshot" src="https://github.com/user-attachments/assets/bb3509ae-1e4d-434a-b250-18e035bb806f" />
 
-Automater
+Replace the text (* Your script goes here *) with the contents of the [applescript.txt file](applescript.txt)
+
 
 
 
