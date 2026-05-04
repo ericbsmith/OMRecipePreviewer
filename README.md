@@ -54,7 +54,7 @@ To generate a JPEG for each recipe:
 - Perform the Generating JPEGs steps above
 
 ## Adding new recipes
-Simple add the .OES file to the "recipes" folder and regenerate
+Simply add the .OES file to the "recipes" folder and regenerate
 
 
 
