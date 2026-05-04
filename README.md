@@ -1,5 +1,5 @@
 # OMRecipePreviewer
-Bulk generate JPEG renders of OM Recipes via OM Workspace on macOS using Applescript in the Shortcuts or Automator programs
+Bulk generate JPEG renders of OM Recipes via OM Workspace on macOS using Applescript in the [Shortcuts](https://support.apple.com/en-gb/guide/shortcuts-mac/apdf22b0444c/mac) or [Automator](https://support.apple.com/en-gb/guide/automator/welcome/mac) programs
 
 ## OM Workspace
 Photo editing software from OM System for users of OM System/Olympus digital cameras
@@ -29,13 +29,13 @@ The script can be run via Shortcuts or Automater. Create a new task in your chos
 Add a Run Applescript step
    <img width="835" height="239" alt="Shortcuts Screenshot" src="https://github.com/user-attachments/assets/5cacc259-b2a0-463a-b3f9-d863452f89a5" />
 
-Replace the text (* Your script goes here *) with the contents of the [applescript.txt file](applescript.txt)
+Replace the text (* Your script goes here *) *including the brackets* with the contents of the [applescript.txt file](applescript.txt)
 
 ### Automater
 Add a Run Applescript step to a Workflow document
    <img width="529" height="244" alt="Automater Screenshot" src="https://github.com/user-attachments/assets/bb3509ae-1e4d-434a-b250-18e035bb806f" />
 
-Replace the text (* Your script goes here *) with the contents of the [applescript.txt file](applescript.txt)
+Replace the text (* Your script goes here *) *including the brackets* with the contents of the [applescript.txt file](applescript.txt)
 
 ## Generating JPEGs
 To generate a JPEG for each recipe:
