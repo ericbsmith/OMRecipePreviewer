@@ -23,6 +23,17 @@ Useful recipe sources:
 
 5. Download/copy all recipes you wish to apply to the "recipes" folder. **Filenames must not contain spaces.**
 
+## Create a new Shortcuts or Automater task
+The script can be run via Shortcuts or Automater. Create a new task in your chosen method.
+
+Shortcuts
+Add a Run Applescript step
+   <img width="835" height="239" alt="Shortcuts Screenshot" src="https://github.com/user-attachments/assets/5cacc259-b2a0-463a-b3f9-d863452f89a5" />
+
+Replace the text (* Your script goes here *) with the contents of applescript.txt file
+
+
+Automater
 
 
 
