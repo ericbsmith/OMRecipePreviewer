@@ -1,0 +1,69 @@
+-- Eric B Smith
+-- Genertate JPEGs of a sample .ORF raw file applying each Recipe .OES to the plain Raw file in turn
+set userName to short user name of (system info)
+	
+	set folderPath to POSIX file ("/Users/" & userName & "/OMRecipePreviewer/recipes")
+	
+	tell application "Finder"
+		set fileList to files of folder folderPath
+	end tell
+	
+	repeat with aFile in fileList
+		set fileName to name of aFile
+		set baseName to text 1 thru ((offset of "." in fileName) - 1) of fileName
+		
+		set filePath to "/Users/" & userName & "/OMRecipePreviewer/sample.ORF"
+		
+		tell application "OM Workspace"
+			activate
+		end tell
+		
+		delay 1
+		
+		-- Open the ORF file
+		do shell script "open -a 'OM Workspace' " & quoted form of filePath
+		
+		-- Wait for image to load
+		delay 5
+		
+		tell application "System Events"
+			tell process "OM Workspace"
+				
+				set frontmost to true
+				
+				click menu item "Load Batch Processing File" of menu "Edit" of menu bar 1
+				
+				tell window "Select Batch Processing File"
+					
+					keystroke tab
+					delay 0.1
+					
+					set recipeName to fileName
+					keystroke recipeName
+					delay 1
+					
+					key code 36 -- Return
+					
+					delay 3
+					
+				end tell
+				
+				click menu item "Export" of menu "File" of menu bar 1
+				
+				tell window "Export Image"
+					keystroke baseName
+					key code 36 -- Return
+				end tell
+				
+				set frontmost to true
+				
+				click menu item "Revert to Original" of menu "Edit" of menu bar 1
+				
+				delay 3
+				
+			end tell
+		end tell
+		
+	end repeat
+	
+	return fileList
