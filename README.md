@@ -50,7 +50,7 @@ To generate a JPEG for each recipe:
 2. Wait times in the script are guesstimates based on an M4 MacBook Pro. You may need to increase these if you encounter any issues
 
 ## Regenerating Tips
-- Either delete all previously generated JPEGs or move to another folder to avoid numberic copies of files being generated on the next run
+- Either delete all previously generated JPEGs or move to another folder to avoid numeric copies of files being generated on the next run
 - Perform the Generating JPEGs steps above
 
 ## Adding new recipes
