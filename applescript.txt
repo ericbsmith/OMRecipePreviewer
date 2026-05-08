@@ -1,5 +1,5 @@
 -- Eric B Smith
--- Genertate JPEGs of a sample .ORF raw file applying each Recipe .OES to the plain Raw file in turn
+-- Generate JPEGs of a sample .ORF raw file applying each Recipe .OES to the plain Raw file in turn
 set userName to short user name of (system info)
 	
 	set folderPath to POSIX file ("/Users/" & userName & "/OMRecipePreviewer/recipes")
