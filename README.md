@@ -1,6 +1,8 @@
 # OMRecipePreviewer
 Bulk generate JPEG renders of OM Recipes via OM Workspace on macOS using Applescript in the [Shortcuts](https://support.apple.com/en-gb/guide/shortcuts-mac/apdf22b0444c/mac) or [Automator](https://support.apple.com/en-gb/guide/automator/welcome/mac) programs
 
+<img width="2468" height="1308" alt="flow" src="https://github.com/user-attachments/assets/3441f633-3f08-4483-aa20-fa5acb2f2f5e" />
+
 ## OM Workspace
 Photo editing software from OM System for users of OM System/Olympus digital cameras
 
